@@ -8,26 +8,29 @@ decoración y cubierta.
 
 class Pedido{
   public:
-    std::string pedir_relleno(){
-      std::string r;
-      std::cout << "¿Qué relleno quieres? ";
-      std::cin >> r;
-      return r;
-    }
-
-    std::string pedir_decoracion(){
-      std::string r;
-      std::cout << "¿Qué decoración quieres? ";
-      std::cin >> r;
-      return r;
-    }
-
-    std::string pedir_cubierta(){
-      std::string r;
-      std::cout << "¿Qué cubierta quieres? ";
-      std::cin >> r;
-      return r;
-    }
+    std::string pedir_relleno();
+    std::string pedir_decoracion();
+    std::string pedir_cubierta();
 };
 
+std::string Pedido::pedir_relleno(){
+    std::string r;
+    std::cout << "¿Qué relleno quieres? ";
+    std::cin >> r;
+    return r;
+    }
+
+std::string Pedido::pedir_decoracion(){
+    std::string r;
+    std::cout << "¿Qué decoración quieres? ";
+    std::cin >> r;
+    return r;
+    }
+
+std::string Pedido::pedir_cubierta(){
+    std::string r;
+    std::cout << "¿Qué cubierta quieres? ";
+    std::cin >> r;
+    return r;
+    }
 #endif
