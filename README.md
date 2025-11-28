@@ -8,5 +8,5 @@ Para el primer avance, se declararon  tres clases: dona_levadura, dona_papa y do
 
 Para el segundo avance, se creó un UML para mostrar las distintas clases que conforman el programa, la clase dona_levadura, dona_papa y dona_pastel, ahora heredan sus características de la clase dona, y tienen una relación de agregación con la clase tienda, a través de la cual se pueden hacer pedidos.
 
-En el tercer avance, actualizo los archivos, ahora se muestra la relación de HERENCIA de la clase Dona, con las clases: Dona_pastel, Dona_levadura y Dona_papa, además, agrego la clase pedido, para poder hacer las preguntas sobre el relleno, la cubierta y la decoración deseadas. Agrego un método a la clase Dona para poder imprimir los atributos en el ticket final. Actualizo el diagrama UML con la nueva estructura del programa.
+En el tercer avance, actualizo los archivos, ahora se muestra la relación de HERENCIA de la clase Dona, con las clases: Dona_pastel, Dona_levadura y Dona_papa, además, agrego la clase Pedido, para poder hacer las preguntas sobre el relleno, la cubierta y la decoración deseadas. Agrego un método a la clase Dona para poder imprimir los atributos en el ticket final, mando llamar todo para poder hacer que el programa funcione en el archivo main. Actualizo el diagrama UML con la nueva estructura del programa.
 
