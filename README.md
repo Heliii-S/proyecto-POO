@@ -10,3 +10,4 @@ Para el segundo avance, se creó un UML para mostrar las distintas clases que co
 
 En el tercer avance, actualizo los archivos, ahora se muestra la relación de HERENCIA de la clase Dona, con las clases: Dona_pastel, Dona_levadura y Dona_papa, además, agrego la clase Pedido, para poder hacer las preguntas sobre el relleno, la cubierta y la decoración deseadas. Agrego un método a la clase Dona para poder imprimir los atributos en el ticket final, mando llamar todo para poder hacer que el programa funcione en el archivo main. Actualizo el diagrama UML con la nueva estructura del programa.
 
+El programa ya no funciona si se responden carácteres que no se encuentran entre las opciones. (En el caso de las preguntas de menú y si deseas ordenar otra dona).
